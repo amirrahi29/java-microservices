@@ -12,4 +12,8 @@ public interface QuizService {
 
     QuizEntity getOne(Long id);
 
+    List<QuizEntity> getAllQuizesAndQuestions();
+
+    QuizEntity getOneQuestion(Long id);
+
 }

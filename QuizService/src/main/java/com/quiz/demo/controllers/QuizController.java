@@ -36,4 +36,14 @@ public class QuizController {
         return quizService.getOne(id);
     }
 
+    @GetMapping("getAllQuizesAndQuestions")
+    public List<QuizEntity> getAllQuizesAndQuestions(){
+        return quizService.getAllQuizesAndQuestions();
+    }
+
+    @GetMapping("getOneQuestion/{id}")
+    public QuizEntity getOneQuestion(@PathVariable Long id){
+        return quizService.getOneQuestion(id);
+    }
+
 }
