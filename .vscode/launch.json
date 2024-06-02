@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QuestionSeriveApplication",
+            "request": "launch",
+            "mainClass": "com.question.demo.QuestionSeriveApplication",
+            "projectName": "com.question-demo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QuizSeriveApplication<com.quiz-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.quiz.demo.QuizSeriveApplication",
+            "projectName": "com.quiz-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
